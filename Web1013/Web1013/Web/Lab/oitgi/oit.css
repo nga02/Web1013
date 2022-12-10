@@ -1,0 +1,47 @@
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: Arial;
+    font-size: 14px;
+  }    
+header{
+    border: 1px solid orange;
+    height: 1px;
+    background-color: chocolate;
+    background-size:50% 50%;
+    padding-bottom:20%;
+}
+ul li{
+    display: inline-block;
+    position:relative;
+}
+ul li a{
+    display: block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10 px;
+    margin: 0 10px;
+    line-height:40 px;
+}
+ul ul{
+    position:absolute;
+    display:none;
+    padding:0 px;
+    margin:0 px;
+    list-style:none;
+    border-radius:3 px ;
+    width:200 px;
+    background-color:burlywood;
+    box-shadow:0 0 1 px gray; 
+}
+ul ul a{
+    display:block;
+    line-height:30 px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 30px;
+}

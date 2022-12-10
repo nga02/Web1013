@@ -1,0 +1,128 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+.contaner{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header{
+    background-color: #350920;
+    text-align: center;/*cho logo ra giữa*/
+}
+header>img{
+    width: 50%;
+    height: 170px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;/*bỏ dấu chấm*/
+    background-color:#B75797;
+    overflow: hidden;/*để không bị tràn ra ngoài*/
+}
+nav ul li{
+    float: left;/*dàn hàng ngang cho menu*/
+}
+nav ul li a{
+    text-decoration: none;/*bỏ gạch chân*/
+    display: block;
+    padding: 10px 25px; /*trên dưới- trái phải*/
+    text-transform: uppercase;/*viết hoa*/
+    color: white;
+}
+nav ul li:hover{
+    background-color: #350920;
+}
+aside{
+    min-height: 500px;
+    width:25% ;/*chia thành 4 phần nên để mỗi phần 25%*/
+    float: left;
+    background-color:#FAE8F4;
+    margin-top: 8px;/*tạo khoảng trống giữa nav và aside*/
+}
+ aside h3{
+    text-transform: uppercase;/*viet hoa*/
+    color: #350920;
+    text-align: center;
+}
+aside div{
+    padding: 10px 0;
+    text-align: center;
+}
+.bt1 button{
+    background-color: #350920;
+    color: aliceblue;
+    width: 80px;
+}
+button:hover{
+    background-color:antiquewhite;
+}
+article{
+    width: 73%;
+    float: right;
+    min-height: 500px;
+}
+article h3{
+    text-transform: uppercase;/*viet hoa*/
+    color:#B75797;
+    text-align: center;
+    font-size: 24px;/*tăng độ to của chũ*/
+}
+hr{
+    border-color: #B75797;
+}
+.column{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    height: 400px;
+}  
+.sanpham{ 
+    border: 1px solid rosybrown; /*rộng 1px màu gray*/
+    text-align: center;
+}
+.sanpham:hover{
+    border-color:red; /*đường viền hộp khi hover*/
+    box-shadow: 0 0 5px orange; /*độ nhòe */
+}
+.sanpham img{
+    max-width: 95%;
+    height: 100px;
+}
+.sanpham .ten{
+    font-size: 22px;
+    color: #350920;
+    font-weight: bolder;/*cho ảnh đậm hơn*/
+}
+.sanpham .giamoi{
+    color: #B75797;
+    font-size: 18px;
+    padding: 10px 0;/*trên dưới 10px trái phải 0px*/
+    font-weight: bolder;
+}
+.sanpham .giacu{
+    font-size: 18px;
+}
+.sanpham button{
+    margin: 10px 0;/*khoảng trống */
+    background-color: #350920;
+    color: #FAE8F4;
+    width: 100px;/*rộng*/
+    height: 30px;/*cao*/
+}
+.sanpham button:hover{
+    background-color: antiquewhite;
+}
+footer{
+    clear: both;
+    background-color: #350920;
+    color: #FAE8F4;
+    text-transform: uppercase;
+    padding: 15px 0; /*tạo khoảng trống căn lề trên dưới*/
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+

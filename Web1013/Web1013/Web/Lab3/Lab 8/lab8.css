@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    border: 1px solid red;
+    height: 0px;
+    background-image: url('anh1.jpg');
+    background-size:100% 100%;
+    padding-bottom:25%;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.menu>ul>li{
+    display: inline-block;
+    position:relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10 px;
+    margin: 0 10px;
+    line-height:40 px;
+}
+.menu>ul{
+    padding: 0 px;
+    margin:0 px;
+    list-style:none;
+    border-radius:3px;
+    background-color:orangered;
+    text-align:center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    position:absolute;
+    display:none;
+    padding:0 px;
+    margin:0 px;
+    list-style:none;
+    border-radius:3 px ;
+    width:200 px;
+    background-color:burlywood;
+    box-shadow:0 0 1 px gray;
+    
+}
+.menu ul ul a{
+    display:block;
+    line-height:30 px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 30px;
+}
+.menu>ul>li:hover>ul{
+    display:block;
+}
+.menu ul ul a:hover{
+    background-color:orangered;
+    color:white;
+}
+.container > aside{
+    min-height:400px;
+    width:25%;
+    background-color:lightgray;
+    float:right;
+}
+aside ul{ /* bỏ dấu chấm đầu dòng */
+    list-style: none;
+}
+
+.container > footer{
+    border-top:5px double orangered;
+    line-height:50px;
+    background-color:lightcyan;
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+}
+.menu1{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.menu1 a{
+    background: url('anh.png') no-repeat 10px center;
+    display: block; 
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding:8px 10px 8px 50px;
+}
+.menu1 a:hover{
+    background: url('anh.png') no-repeat 10px center ;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+
+

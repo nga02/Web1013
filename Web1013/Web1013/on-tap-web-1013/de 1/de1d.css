@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.contaner{
+    max-width: 1200px;
+    margin:0 auto;
+    
+}
+.header{
+    background-color: #F95412;
+    position: relative;
+    padding: 10px 0;
+ 
+}
+.header img{
+    width: 30%;
+    height: 150px;
+}
+.timkiem{
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+.timkiem input{
+    width: 350px;
+    height: 30px;
+}
+button{
+    margin-top: 10px;
+    background-color:darkblue;
+   box-shadow: 1px;
+    color: aliceblue;
+    width: 120px;
+    height: 35px;
+    border: 1px solid blanchedalmond;
+}
+button:hover{
+    background-color: blanchedalmond;
+}
+.menu{
+    background-color:bisque ;
+    color: white;
+}
+.menu ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu ul li:hover{
+    text-decoration: underline;
+    background-color: #F95412;
+}
+.banner{
+    margin-top: 10px;
+    clear: both;
+    width: 100%;
+}
+/*thân bài*/ 
+
+h1{
+    color:darkblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h2{
+    color: #F95412;
+}
+h2:hover{
+    color:green;
+    text-decoration: underline;
+}
+.trai{
+    border: 1px solid orangered;
+    overflow: auto;
+    float: left;
+    width: 30%;
+    height: 495px;
+    padding: 10px;
+    margin-top: 1px;
+}
+.trai{
+    padding: 10px;
+    display:table-cell;/*chia cootj*/
+}
+.trai img{
+    width: 90%;
+    height: auto;
+    margin: 10px;
+}
+.phai{
+    float: right;
+    width: 65%;
+    height: 495px;
+    
+}
+.p2{
+    border: 1px solid orangered;
+    width: 100%;
+    height: 49%;
+    float: left;
+    margin-bottom: 32px;
+    
+}
+.p2 img{
+    width: 40%;
+    margin: 10px;
+}
+.box1{
+    float: right;
+    display: block;
+    width: 50%;
+}
+
+.footer{
+    
+    clear: both;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+

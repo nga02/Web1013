@@ -1,0 +1,317 @@
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: Arial;
+    font-size: 14px;
+  }
+header{
+    height: 0px;
+    background-size:100% 100%;
+    padding-bottom:25%;
+    background-image: url('baner.jpg');
+   border: 1px solid orange;
+}
+.menu{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.menu>nav{
+    line-height:40px;
+    background-color:orangered;
+    color:white;
+    text-align:left;
+}
+nav a{
+    display: inline-block;
+    color: white;
+    margin: 0 15px;
+    text-decoration:none;
+}
+
+.timkiem{
+    float: right;
+    font-variant: small-caps;
+    margin: 0 20px;
+    text-decoration: none;
+}
+.timkiem>button{
+    background-color: white;
+    border-radius: 40px;
+    outline:none;
+    padding: 5px 20px;
+}
+.timkiem > button:hover{
+    box-shadow: 0 0 20px olivedrab;
+}
+.menu> article{
+    min-height:600px;
+    width:100%;
+    background-color:lightpink;
+   text-align: center;
+   top: 0px;
+   padding:0px ;
+}
+.menu a:hover{
+    background-color:rosybrown;
+    color:white;
+   
+    text-decoration: underline;
+}
+.menu > footer{
+    border-top:5px double orangered;
+    line-height:20px;
+    background-color:dimgray;
+    float: left;
+    clear:both;
+}
+.footer{
+    line-height: 50px;
+    background-color: #263054;
+    clear: both;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+ }
+.san-pham{
+    clear: both;
+    width:25%;
+    display:table-cell;/*chia cootj*/
+    padding-right: 30px;
+}
+.new img{
+    border-radius: 15px;
+}
+.max img{
+    border-radius: 50%; /*tạo khối cho ảnh */
+}
+.gia{
+    color: red;
+}
+del{
+    color: slategray;
+}
+.ten2{
+    text-align: center;
+}
+b{
+    font-size: 20px;
+}
+.san-pham :hover{
+    text-decoration: underline;
+}
+h1{
+    text-shadow: 2px 2px 5px olivedrab;
+    text-align: center;
+    color:green;
+}
+.nd1 img{
+    display:flex;
+    width:50%;
+}
+.sp1{
+    width: 250px;
+    height: 330px;
+    border: 1px solid rosybrown;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+.sp1 > p > a{
+    text-decoration: none;
+}
+.box1{
+    width: 980px;
+    height: 330px;
+   margin: 10px;
+}
+.sp1:hover{
+    box-shadow: 5px 10px red;
+    box-shadow: 1px 2px 5px blue;
+}
+.content{
+    background-color:seashell;
+    background-image: none;
+}
+.text-center img{
+    margin: 0 auto;
+}
+aside{
+    min-height:700px;
+    width:25%;
+    background-color:#FAE8F4;
+    float:left;
+}
+
+.p2{
+    padding: 0px;
+    margin: 1px;
+    list-style: none;
+    border-radius: 1px;
+   
+}
+.p2 a{
+    
+    display: block; 
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding:8px 10px 8px 50px;
+}
+.p2 a:hover{
+    
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+ul>li{
+    display: inline-block;
+    position:relative;
+}
+ul>li>a{
+    display: block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10 px;
+    margin: 0 10px;
+    line-height:40 px;
+}
+ul{
+    padding: 0 px;
+    margin:0 px;
+    list-style:none;
+    border-radius:3px;
+    text-align:center;
+}
+ul>li>a:hover{
+    color: yellow;
+}
+ ul ul{
+    position:absolute;
+    display:none;
+    padding:0 px;
+    margin:0 px;
+    list-style:none;
+    border-radius:3 px ;
+    width:200 px;
+    background-color:burlywood;
+    box-shadow:0 0 1 px gray;
+    
+}
+ ul ul a{
+    display:block;
+    line-height:30 px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:smaller;
+    padding:0 30px;
+}
+ul>li:hover>ul{
+    display:block;
+}
+ ul ul a:hover{
+    background-color:orangered;
+    color:white;
+}
+.blog {
+    display:table-cell;
+}
+.sp4 button{
+    margin: 0 auto;
+    padding: 0px;
+    background-color:antiquewhite;
+}
+/*.lhe> article{
+    text-align: left;
+}*/
+.sign-up{
+    width: 40%;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    float: right;
+    padding: 20px 60px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.sign-up h3{
+    color:red;
+    text-align: center;
+}
+.sign-up textarea,
+.sign-up input[type="text"]{
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid blanchedalmond;
+}
+.sign-up button{
+    padding: 10px 20px;
+    background-color:blue;
+    color:antiquewhite;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+}
+.lhe {
+    border: 1px solid gray;
+    overflow:auto;
+    margin: 1px;
+}
+.lhe img{
+    float:left;
+    width: 30%;
+    padding: 20px; 
+
+}
+
+.box-2{
+    border:#E9D4FF; 
+    border-radius: 4px 4px 4px 4px;
+    margin-left:9px; 
+    border-style:solid; 
+    border-width:2px;
+    width:242px;
+    height: auto;
+}
+.box-left{
+    float:left;
+    width:300px;
+    margin-top:28px;
+    height:auto;
+    margin-left:10px
+}
+.box-2 p{
+    padding:8px;
+     padding-top:2px;
+}
+h2{
+    text-align: center;
+    color: brown;
+}
+.anh1{
+    overflow:auto;
+    margin-top: 1px;
+}
+.anh1 img{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+.anh1 a{
+    text-decoration: none;
+    
+}
+
+
+

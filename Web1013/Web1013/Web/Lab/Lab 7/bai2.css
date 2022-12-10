@@ -1,0 +1,49 @@
+.col-25{
+    width: 25%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px ;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod>.name{
+    font-variant: small-caps;
+    color: orangered;
+}
+.prod>.image{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+    
+}
+.prod>.price{
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    font-family:Impact;
+    font-size: 20px;
+    color: orange;
+}
+.prod>.icons{
+   position: absolute;
+   width: 100px;
+   height: 10px;
+   bottom: 30px;
+   right: -40px;
+   display: inline-block;
+}
+.prod img{
+    display: block;
+    text-align: center;
+   
+}
+.prod>.new-icon{
+    max-width: 25%;
+    position: absolute;
+    top: 0px;
+    right: 0px; 
+}

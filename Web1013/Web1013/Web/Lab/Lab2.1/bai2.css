@@ -1,0 +1,48 @@
+header{
+    background-color:#D2691E ;
+    background-image: none;
+}
+.anh>nav{
+    line-height: 40px;
+    background-color: #2A3055;
+    color: white;
+    font-variant: small-caps;
+    text-align: left;
+}
+.anh>nav>a{
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
+.anh>nav>a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.timkiem>a{
+    color:white;
+    text-decoration: underline;
+}
+.timkiem{
+    float: right;
+    margin: 0 20px;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+.timkiem>a:hover{
+    color:white;
+}
+article h3{
+    text-align: center;
+    padding: 15px 0;
+    color: #272f54;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+article .nd .nd1{
+    width: 28%;
+    padding: 2%;
+    float: left;
+    border: 1px solid #ccc;
+   
+}

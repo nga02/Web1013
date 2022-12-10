@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop3</title>
+    <style>
+        .body{
+            padding: 0;
+            margin: 0;
+        }
+        .contaner{
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header{
+            background-color:#272F54;
+            position: relative;
+            text-align: center;
+        }
+        header>img{
+            width: 30%;
+            
+        }
+       
+        .menu{
+            margin-top: 2px;
+            background-color: #272F54;
+        }
+        .menu ul{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .menu ul li{
+            display: inline-block;
+            padding: 10px 20px;
+            border-right: 1px solid white;
+            list-style: none;
+            overflow: hidden;
+        }
+        nav ul li a{
+            text-decoration: none;
+            display: block;
+            padding:5px 15px; 
+            text-transform: uppercase;
+            color: white;
+        }
+        nav ul li:hover{
+            background-color: #350920;
+        }
+        .timkiem input{
+            width: 400px;
+            height: 40px;
+        }
+       .timkiem{
+            float: right;
+        }
+        .timkiem button{
+            margin: 20px 0 0 ;
+            height: 40px;
+            width: 100px;
+            background-color:#272F54;
+            border:  1px solid white;
+            color: white;    
+            border-radius: 10px;
+        }
+        .timkiem{
+            float: right;
+            font-variant: small-caps;
+            margin: 0 20px;
+            text-decoration: none;
+        }
+        .timkiem > button:hover{
+            box-shadow: 0 0 20px olivedrab;
+        }
+    </style>
+</head>
+<body>
+    <div class="conterner">
+        <header>
+            <img src="logo-removebg-preview.png" alt="logo">
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+                <div class="timkiem">
+                    <input type="text" placeholder="Search..."/> <br>
+                    <button>Tìm kiếm</button>
+                </div>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

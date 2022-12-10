@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contaner{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.header{
+    background-color: #F95412;
+    position: relative;
+    padding: 10px 0;
+ 
+}
+.header img{
+    width: 30%;
+    height: 150px;
+}
+.timkiem{
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+.timkiem input{
+   width: 250px;
+   height: 20px;
+}
+button{
+    margin-top: 10px;
+    background-color:darkblue;
+   box-shadow: 1px;
+    color: aliceblue;
+    width: 120px;
+    height: 35px;
+    border: 1px solid blanchedalmond;
+}
+
+button:hover{
+   background-color: antiquewhite;
+}
+
+.menu{
+    background-color:blueviolet;
+    color:white;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 15px;
+}
+.menu ul li a{
+   
+    color: aliceblue;
+    text-decoration: none;/*bỏ gạch chân*/
+    text-transform: uppercase;/*viết hoa*/
+}
+.menu ul :hover{
+    text-decoration: underline;/*gạch chân khi hover*/
+     background-color: #F95412;
+}
+.banner{
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+
+h1{
+    color: orange;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    color: red;
+}
+h3:hover{
+    color:coral;
+    text-decoration: underline;
+}
+.nd{
+    display:table-cell;/*chia cootj*/
+    width: 100%;
+}
+.box{
+    border: 1px solid orange;
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+   
+}
+h3{
+    margin: 10px;
+}
+p{
+    margin: 10px;
+}
+.box img{
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+}
+.footer{
+    clear: both;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}

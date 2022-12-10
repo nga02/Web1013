@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        p{
+            text-align: center;
+        }
+        p>img{
+            width: 500px;
+            height: 500px;
+            padding: 30px;
+            margin: 20px; 
+            border: 1px solid grey;
+            border-radius: 10px;
+            background-color: yellow;
+            box-shadow: 10px 10px rgba(0, 132, 255, 0.404);
+        }
+        p>img:hover{
+            box-shadow: 5px 10px red;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+   <p>
+       <img src="anhbai1.jpg" alt="">
+       <img src="anhbai1.jpg" alt="">
+       <img src="anhbai1.jpg" alt="">
+       <img src="anhbai1.jpg" alt="">
+       <br>
+       <img src="anh2.jpeg" alt="">
+       <img src="anh2.jpeg" alt="">
+       <img src="anh2.jpeg" alt="">
+       <img src="anh2.jpeg" alt="">
+   </p>
+</body>
+</html>

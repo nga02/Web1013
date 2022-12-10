@@ -1,0 +1,24 @@
+.menu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.menu a{
+    background: url('anh.png') no-repeat 10px center;
+    display: block; 
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding:8px 10px 8px 50px;
+}
+.menu a:hover{
+    background: url('anh.png') no-repeat 10px center ;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}

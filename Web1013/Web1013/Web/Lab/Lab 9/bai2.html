@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 2_Lab 9</title>
+    <link rel="stylesheet" href="bai1.css">
+</head>
+<body>
+   <form>
+       <div class="form-group">
+            <label >Họ và tên</label>
+            <input type="text"class="form-control"/>   
+       </div>
+       <div class="form-group">
+            <label >Giới tính:</label>
+            <input type="radio"name="gioitinh" value="1"/>Nam 
+            <input type="radio"name="gioitinh" value="2"/>Nữ
+       </div>
+       <div class="form-group">
+            <label >Hình ảnh:</label>
+            <input type="file" name="photo" class="form-control"/>   
+       </div>
+       <div class="form-group">
+            <label >Quốc tịch:</label>
+            <select class="form-control">
+                <option>Việt Nam</option>
+                <option selected>United States</option>
+                <option>Thái Lan</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>Sở thích:</label>
+            <div>
+                <input type="checkbox" name="sothich" value="1"/>Thể thao
+                <input type="checkbox" name="sothich" value="2"/>Du lịch
+                <input type="checkbox" name="sothich" value="3"/>Âm nhạc
+                <input type="checkbox" name="sothich" value="4"/>Ẩm thực
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Ghi chú:</label>
+            <textarea rows="3" cols="30" class="form-control"></textarea>
+       </div>
+       <hr/>
+       <div class="form-group">
+        <button class="form-button" type="submit">Đăng kí</button>
+        <button class="form-button" tabindex="4">Nhập lại</button>
+    </div>
+   </form>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mẫu 2</title>
+    <style>
+        .body{
+            padding: 0;
+            margin: 0;
+        }
+        .contaner{
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header{
+            background-color:#272F54;
+            position: relative;
+        }
+        header>img{
+            width: 20%;
+        }
+        .timkiem {
+            margin-top: 7%;
+            display: flex;
+            float: right;
+
+        }
+        .timkiem input{
+            width: 250px;
+            height: 40px;
+        }
+        .timkiem button{
+            margin:  0 20px;
+            background-color:#272F54;
+            border:  1px solid white;
+            color: white;
+            height: 45px;
+            width: 100px;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: antiquewhite;
+        }
+        .menu{
+            margin-top: 2px;
+            background-color: #272F54;
+        }
+        .menu ul{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .menu ul li{
+            display: inline-block;
+            padding: 10px 20px;
+            border-right: 1px solid white;
+            list-style: none;
+            overflow: hidden;
+        }
+        nav ul li a{
+            text-decoration: none;
+            display: block;
+            padding:5px 15px;
+            text-transform: uppercase;
+            color: white;
+        }
+        nav ul li:hover{
+            background-color: #350920;
+        }
+    </style>
+</head>
+<body>
+    <div class="conterner">
+        <header>
+            <img src="logo-removebg-preview.png" alt="logo">
+            <div class="timkiem">
+                <input type="text" placeholder="Search..."/> <br>
+                 <div><button>Tìm kiếm</button></div>
+            </div>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

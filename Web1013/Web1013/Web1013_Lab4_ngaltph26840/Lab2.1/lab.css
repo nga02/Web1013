@@ -1,0 +1,36 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    border: 1px solid orange;
+    height: 1px;
+    background-color: chocolate;
+    background-size:50% 50%;
+    padding-bottom:20%;
+}
+.anh{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.anh>nav{
+    padding-left: 20px;
+    line-height: 40px;
+    background-color: blue;
+    color:white;
+    font-variant: normal;
+}
+input{
+    padding-right: 50px;
+   border: 1px solid white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+h2{
+    color: blue;
+    text-align: center;
+    
+}

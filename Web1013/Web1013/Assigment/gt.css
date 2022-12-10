@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+  }
+header{
+    border: 1px solid red;
+    height: 0px;
+    background-image: url('baner.jpg');
+    background-size:100% 100%;
+    padding-bottom:25%;
+}
+.about{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about>nav{
+    line-height:40px;
+    background-color:orangered;
+    color:white;
+    text-align:left;
+} 
+nav a{
+    display: inline-block;
+    color: white;
+    margin: 0 15px;
+    text-decoration:none;
+}

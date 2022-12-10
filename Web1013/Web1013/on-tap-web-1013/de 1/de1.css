@@ -1,0 +1,124 @@
+ body{
+    margin: 0;
+    padding: 0;
+}
+.contaner{
+    max-width: 1000px;
+    margin:0 auto;
+}
+.header{
+     background-color: #F95412;
+     padding: 10px 0;
+     position: relative;
+     width: 100%;
+     height: 100px;
+     
+}
+.header>img{
+    width: 30%;
+    height: 35px;
+    margin: 10px 10px 5px ;
+}
+.timkiem{
+    margin-top: 2%;
+    display: flex;
+    float: right;
+}
+.timkiem input{
+
+    width: 250px;
+    height: 20px;
+}
+.timkiem button{
+    margin: 0 20px;
+    height: 25px;
+    width: 100px;
+    background-color:indigo;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: antiquewhite;
+}
+.menu{
+    background-color:coral;
+    color:white;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 15px;
+}
+.menu ul li a{
+   
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu ul :hover{
+    text-decoration: underline;
+     background-color: #F95412;
+}
+.banner{
+    width: 100%;
+    margin-top: 5px;
+}
+.footer{
+    clear: both;
+    text-align: center;
+    background-color:#272F54;
+    color: aliceblue;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+h1{
+    text-transform:uppercase;
+    color: #272F54; 
+}
+.trai{
+    float: left;
+    width: 25%;
+    height: 550px;
+}
+.phai{
+    float: right;  
+    height: 450px;
+    width: 60%;
+    background-color: #F95412;
+}
+.p1{
+    float: left;
+    border: 2px solid orange;
+    padding: 20px ;
+    margin: 1px;
+    
+}
+.p1 img{
+    padding: 35px 20px;
+    
+}
+.p2{
+    float: right;
+    border: 2px solid orange;
+    margin-top: 5px;
+    margin: 10px ;
+   background-color: aqua;
+}
+.p2 img{
+    width: 40%;
+    padding:50px;
+}
+h2 a{
+    color: orange;
+    text-decoration: none;
+}
+a:hover{
+    background-color:aquamarine;
+    text-decoration: underline;
+}
